@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "rootDirectory": "Client-side"
+  },
+  "builds": [
+    {
+      "src": "Client-side/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "Client-side/dist"
+      }
+    }
+  ]
+}
