@@ -1,0 +1,10 @@
+
+.rbtn button{
+    padding: 7px 13px;
+    border: none;
+    background-color: #720e9e;
+    color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 250px;
+}

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  color: #fff;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    box-shadow: 0 -1px 0 #fff;
+  }
+
+  50% {
+    transform: rotate(180deg);
+    box-shadow: 0 -1px 0 #fff;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    box-shadow: 0 -1px 0 #fff;
+  }
+}
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #333;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    text-align: center;
+    border: 1px solid rgb(143, 140, 140);
+    transition: transform 0.2s ease;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+
+img {
+    height: 150px;
+    width: 100%;
+    border-radius: 8px;
+}
+.love{
+    font-size: 20px;
+    color: #fff;
+}
+.title{
+    color: #fff;
+}
+.rating{
+    color: #fff;
+}
+.icon1{
+    color: #fff;
+}
+.btn{
+    padding: 5px 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    background-color: #c55ffc;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}

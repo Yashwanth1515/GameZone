@@ -1,0 +1,103 @@
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  color: #fff;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    box-shadow: 0 -1px 0 #fff;
+  }
+
+  50% {
+    transform: rotate(180deg);
+    box-shadow: 0 -1px 0 #fff;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    box-shadow: 0 -1px 0 #fff;
+  }
+}
+.game-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.game-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  color: #fff;
+  background-color: #333;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.game-card:hover {
+  transform: scale(1.03);
+}
+
+
+img {
+  /* width: 100%; */
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.game-title {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.game-rating {
+  color: #fff;
+  font-size: 14px;
+}
+.installbtn {
+  padding: 10px 55px;
+  border: none;
+  border-radius: 12px;
+  background-color: #720e9e;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3px;
+  cursor: pointer;
+}
+.icon1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  gap: 50px;   
+  cursor: pointer;
+}
+.love{
+  cursor: pointer;
+}
+
+

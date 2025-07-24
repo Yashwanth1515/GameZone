@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font: 14px;
+    background-color:#f3eae3;
+}
+.form-container{
+    display: flex;
+    height: 400px;
+    width: 600px;
+    background-color: #ffff;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+                rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+                rgba(0, 0, 0, 0.2) 0px 2px 0cqi inset;
+}
+.form-container .image{
+    overflow: hidden;
+    height: 100%;
+    width: 50%;
+    z-index: -10px;
+    background-size: contain;
+}
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.form{
+    text-align: center;
+}
+.form h1{
+    padding-left: 40px;
+    text-align: center;
+    color: #720e9e;
+}
+.form h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 30px;
+}
+.form input{
+    font-size:15px ;
+  padding: 0.8em;
+  outline: none;
+  border: 2px solid rgb(200, 200, 200);
+  background-color: transparent;
+  border-radius: 20px;
+  width: 100%;
+  gap: 20px;
+}
+.form input :active{
+    border-color:2px solid rgb(98, 4, 98);
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 30px;
+}
+.inputs:focus{
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.form button{
+    padding: 15px 50px;
+    margin-top: 10px;
+    margin-left: 40px;
+    background-color: #720e9e;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.check{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 5px;
+}
+.check input{
+    width: 20px;
+}
+.check p{
+    color: black;
+}
+.for-pass{
+    color: red;
+    cursor: pointer;
+}
+.sign p{
+    padding-top: 20px;
+    color: black;
+}
+

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gameimage2  {
+    height: 350px;
+    width: 600px;
+}
+img{
+    height: 100%;
+}
+.h4{
+    display: flex;
+    gap: 5px;
+}
+.gamescontainer{
+    display: flex;
+    gap: 30px;
+    background-color: #333;
+    border-radius: 12px;
+}
+.gamename{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.desc{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 7px;
+}
+.btn1{
+    padding: 5px 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    background-color: #c55ffc;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}

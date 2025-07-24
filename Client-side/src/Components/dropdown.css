@@ -1,0 +1,35 @@
+.nav-item {
+    /* padding: 10px; */
+    cursor: pointer;
+    color: white;
+    position: relative;
+    list-style: none;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  background-color: #222;
+  min-width: 160px;
+  z-index: 100;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.dropdown a:hover {
+  background-color: #444;
+}
+
+.nav-item:hover .dropdown {
+  display: block;
+}

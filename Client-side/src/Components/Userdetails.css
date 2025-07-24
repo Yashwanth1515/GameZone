@@ -1,0 +1,21 @@
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+.image-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.details-block h1,
+.details-block h2 {
+  margin: 10px 0;
+  color: #fff;
+}
