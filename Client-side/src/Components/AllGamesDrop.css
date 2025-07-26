@@ -1,0 +1,30 @@
+.kiditems{
+    list-style: none;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+}
+.dropdown{
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0px;
+    background-color: #222;
+    min-width: 160px;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.dropdown a{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+.dropdown a:hover {
+  background-color: #444;
+}
+.kiditems:hover .dropdown{
+    display: block;
+}
